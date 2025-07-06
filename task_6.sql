@@ -1,6 +1,9 @@
 
-INSERT INTO customer (customer_id, customer_name, email, address)
-VALUES 
-    (2, "Blessing Malik", "bmalik@sandtech.com", "124 Happiness Ave."),  -- Double-check no extra spaces or characters
-    (3, "Obed Ehoneah", "eobed@sandtech.com", "125 Happiness Ave."),
-    (4, "Nehemial Kamolu", "nkamolu@sandtech.com", "126 Happiness Ave.");
+
+-- SQL script to insert multiple rows into the customer table
+-- This script assumes the 'customer' table already exists in the selected database.
+
+INSERT INTO customer (customer_id, customer_name, email, address) VALUES
+(2, 'Blessing Malik', 'bmalik@sandtech.com', '124 Happiness Ave.'),
+(3, 'Obed Ehoneah', 'eobed@sandtech.com', '125 Happiness Ave.'),
+(4, 'Nehemial Kamolu', 'nkamolu@sandtech.com', '126 Happiness Ave.');
